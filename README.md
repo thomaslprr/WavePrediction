@@ -1,7 +1,7 @@
 # WavePrediction
 Prédiction de la taille des vagues ainsi que de la période 🌊
 
-## Problématique : Puis-je aller surfer ? 
+## Problématique : Puis-je aller surfer ? 🏄
 Étant surfeur, trois des critères les plus importants (à mon sens) pour savoir si les conditions sont optimales pour aller surfer sont : 
 
 • Le vent 
@@ -19,7 +19,7 @@ Vais-je pouvoir aller surfer ?
 
 **Intérêt :** L'intérêt d'un tel modèle est d'éviter de me déplacer pour rien à la mer. Je ne veux pas faire 1h de route, charger tout mon matériel et arriver là-bas pour me rendre compte qu'aucune vague n'est présente.
 
-## Jeu de données
+## 📊 Jeu de données
 Les données sont issues de Kaggle sous la licence : CC BY 4.0. 
 
 Le jeu de données ressensent 30 mois de mesure à interval régulier (30 minutes) des données océaniques de Mooloolaba, ville cotière en Australie. 
@@ -37,7 +37,7 @@ Les mesures sont prises via une bouée flottante sur l'eau.
 
 Les données pour se projet se trouvent [ici](https://www.kaggle.com/jolasa/waves-measuring-buoys-data-mooloolaba).
 
-## Modèle
+## 🖥️ Modèle
 ### Choix du modèle : ARIMA
 Après plusieurs recherches du meilleur modèle à utiliser pour réaliser ce projet, j'ai décidé de partir sur le modèle ARIMA.
 
@@ -77,5 +77,5 @@ J'ai choisi la deuxième option. Cette deuxième approche est plus simple à met
 
 ## Bilan
 
-Au cours de ce projet, on a pu découvrir l'implémentation d'un modèle ARIMA et se rendre compte de l'intérêt d'un tel modèle. On se rend compte qu'on peut assez facilement à partir de beaucoup de données, prédire un comportement naturel tel que l'évolution de la période des vagues ou de leur taille. 
+Au cours de ce projet, on a pu découvrir l'implémentation d'un modèle ARIMA et se rendre compte de l'intérêt d'un tel modèle. On se rend compte qu'on peut assez facilement, à partir de beaucoup de données, prédire un comportement naturel tel que l'évolution de la période des vagues ou de leur taille. 
 
