@@ -65,6 +65,7 @@ ARIMA est très précis pour effectuer ce type de prédiction et on obtient des 
 
 <p align="center">
 <img src="https://github.com/thomaslprr/WavePrediction/blob/master/1-step-prediction.png" width="800px"/>
+  <br/>Prédiction de la taille des vagues
 </p>
 
 #### Prédiction à t+k
@@ -83,6 +84,7 @@ Voici les performances obtenues (k=7 --> 3h30 dans le futur) :
 
 <p align="center">
 <img src="https://github.com/thomaslprr/WavePrediction/blob/master/7-step-prediction.png" width="800px"/>
+    <br/>Prédiction de la taille des vagues
 </p>
 
 **NB :** Le modèle ci-dessus n'a pas été entraîné sur l'intégralité des données pour des questions de temps. Le modèle obtenu est bien meilleur lorsqu'il est entraîné sur l'intégralité des données. 
