@@ -79,6 +79,14 @@ On peut effectuer différentes approches pour obtenir ce type de prédiction :
 
 J'ai choisi la deuxième option. Cette deuxième approche est plus simple à mettre en place mais donne des résultats moins performant. Cependant, le but de ce projet n'est pas forcément d'obtenir un modèle compétitif mais de découvrir les différentes possibilités et avoir un premier rendu satisfaisant. 
 
+Voici les performances obtenues (k=7 --> 3h30 dans le futur) :
+
+<p align="center">
+<img src="https://github.com/thomaslprr/WavePrediction/blob/master/7-step-prediction.png" width="800px"/>
+</p>
+
+**NB :** Le modèle ci-dessus n'a pas été entraîné sur l'intégralité des données pour des questions de temps. Le modèle obtenu est bien meilleur lorsqu'il est entraîné sur l'intégralité des données. 
+
 ## Bilan
 
 Au cours de ce projet, on a pu découvrir l'implémentation d'un modèle ARIMA et se rendre compte de l'intérêt d'un tel modèle. On se rend compte qu'on peut assez facilement, à partir de beaucoup de données, prédire un comportement naturel tel que l'évolution de la période des vagues ou de leur taille. 
