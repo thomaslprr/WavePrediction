@@ -61,7 +61,11 @@ Une fois le modèle entraîné, j'ai décidé de l'utiliser dans deux cas d'usag
 
 Le premier consiste à prédire la prochaine étape (t+1). Autrement dit, le modèle est entraîné sur les données allant de la date x à la date y, on peut alors prédire facilement et précisement la date y+1 (qui correspond ici à 30 minutes après).
 
-ARIMA est très précis pour effectuer ce type de prédiction et on obtient des résultats très satisfaisant. 
+ARIMA est très précis pour effectuer ce type de prédiction et on obtient des résultats très satisfaisant comme vous pourrez le constater ci-dessous.
+
+<p align="center">
+<img src="https://github.com/thomaslprr/WavePrediction/blob/master/1-step-prediction.png" width="800px"/>
+</p>
 
 #### Prédiction à t+k
 
