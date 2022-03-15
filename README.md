@@ -70,7 +70,7 @@ ARIMA est très précis pour effectuer ce type de prédiction et on obtient des 
 
 #### Prédiction à t+k
 
-Ici, le but est de s'amuser avec le modèle et de l'utiliser dans un cadre bien plus semblable à la réalité. La prédiction à t+k permet de prédire non pas à l'étape t+1 (30 minutes) sinon t+k (k minutes dans le futur). Autrement dit, je ne souhaite pas connaître les conditions océaniques des 30 prochaines minutes mais celle dans 3 heures ou dans 24h. 
+Ici, le but est d'exploiter le modèle et de l'utiliser dans un cadre bien plus semblable à la réalité. La prédiction à t+k permet de prédire non pas à l'étape t+1 (30 minutes) sinon t+k (k minutes dans le futur). Autrement dit, je ne souhaite pas connaître les conditions océaniques des 30 prochaines minutes mais celle dans 3 heures ou dans 24h. 
 
 On peut effectuer différentes approches pour obtenir ce type de prédiction : 
 
